@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VS InfoTech - Coming Soon</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    /* Floating Animation */
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-20px); }
+      100% { transform: translateY(0px); }
+    }
+    .floating {
+      animation: float 6s ease-in-out infinite;
+    }
+    .icon {
+      opacity: 0.07;
+      position: absolute;
+    }
+  </style>
+</head>
+
+<body class="bg-gradient-to-br from-blue-900 to-blue-600 min-h-screen overflow-hidden flex items-center justify-center text-white relative">
+
+  <!-- Background Floating Icons -->
+  <img src="https://img.icons8.com/ios-filled/100/ffffff/cloud.png" class="icon floating" style="top:10%; left:10%; width:60px; animation-delay: 0s;">
+  <img src="https://img.icons8.com/ios-filled/100/ffffff/artificial-intelligence.png" class="icon floating" style="top:20%; left:70%; width:80px; animation-delay: 2s;">
+  <img src="https://img.icons8.com/ios-filled/100/ffffff/data-configuration.png" class="icon floating" style="top:40%; left:30%; width:50px; animation-delay: 4s;">
+  <img src="https://img.icons8.com/ios-filled/100/ffffff/server.png" class="icon floating" style="top:65%; left:75%; width:65px; animation-delay: 1s;">
+  <img src="https://img.icons8.com/ios-filled/100/ffffff/laptop.png" class="icon floating" style="top:75%; left:15%; width:55px; animation-delay: 3s;">
+  <img src="https://img.icons8.com/ios-filled/100/ffffff/brain.png" class="icon floating" style="top:85%; left:50%; width:70px; animation-delay: 5s;">
+
+  <!-- Foreground Content -->
+  <div class="text-center p-8 z-10">
+    <h1 class="text-5xl md:text-7xl font-bold mb-6 animate-pulse">VS InfoTech</h1>
+    <p class="text-2xl md:text-3xl text-gray-200">Something awesome coming soon</p>
+
+    <div class="mt-10 text-sm text-gray-400">
+      &copy; 2025 VS InfoTech Ltd. All rights reserved.
+    </div>
+  </div>
+
+</body>
+</html>
